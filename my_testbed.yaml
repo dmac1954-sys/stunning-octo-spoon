@@ -1,0 +1,15 @@
+devices:
+  inside-host01:
+      connections:
+        cli:
+          ip: 10.10.20.179
+          protocol: ssh
+      credentials:
+        default:
+          password: '%ENC{w5PDosOUw5fDog==}'
+          username: cisco
+        enable:
+          password: '%ENC{w5PDosOUw5fDog==}'
+      os: linux
+      type: linux
+  
